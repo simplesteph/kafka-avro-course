@@ -12,7 +12,6 @@ Happy learning!
 
 # Content
 
- - Starter project with dependencies
  - Avro examples
  - Kafka Avro Producer & Consumer
  - Schema Evolutions
