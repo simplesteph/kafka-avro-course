@@ -77,6 +77,7 @@ public class GenericRecordExamples {
             dataFileWriter.create(myCustomer.getSchema(), new File("customer-generic.avro"));
             dataFileWriter.append(myCustomer);
             System.out.println("Written customer-generic.avro");
+            dataFileWriter.close();
         } catch (IOException e) {
             System.out.println("Couldn't write file");
             e.printStackTrace();
