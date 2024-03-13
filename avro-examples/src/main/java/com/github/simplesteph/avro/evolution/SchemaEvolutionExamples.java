@@ -38,7 +38,7 @@ public class SchemaEvolutionExamples {
 
         // we read it using the v2 schema
         System.out.println("Reading our customerV1.avro with v2 schema");
-        final File file = new File("customerv1.avro");
+        final File file = new File("customerV1.avro");
         final DatumReader<CustomerV2> datumReaderV2 = new SpecificDatumReader<>(CustomerV2.class);
         final DataFileReader<CustomerV2> dataFileReaderV2 = new DataFileReader<>(file, datumReaderV2);
         while (dataFileReaderV2.hasNext()) {
