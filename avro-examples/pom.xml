@@ -13,7 +13,7 @@
 
 
     <properties>
-        <avro.version>1.11.1</avro.version>
+        <avro.version>1.11.3</avro.version>
     </properties>
 
 
